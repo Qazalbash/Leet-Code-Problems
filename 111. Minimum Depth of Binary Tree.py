@@ -5,6 +5,7 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+
     def minDepth(self, root: TreeNode) -> int:
         if not root:
             return 0

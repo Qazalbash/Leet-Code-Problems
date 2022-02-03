@@ -1,4 +1,5 @@
 class Solution:
+
     def numSpecial(self, mat: List[List[int]]) -> int:
         cor = 0
         for i in range(len(mat)):

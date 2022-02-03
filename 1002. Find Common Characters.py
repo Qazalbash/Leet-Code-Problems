@@ -1,4 +1,5 @@
 class Solution:
+
     def commonChars(self, words: List[str]) -> List[str]:
         s = {j: [] for j in set("".join(words))}
         for i in words:

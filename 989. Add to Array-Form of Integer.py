@@ -1,4 +1,5 @@
 class Solution:
+
     def addToArrayForm(self, num: List[int], k: int) -> List[int]:
         K = [int(i) for i in str(k)]
         carry = 0

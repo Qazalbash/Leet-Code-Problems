@@ -1,4 +1,5 @@
 class Solution:
+
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         ana = {}
         for i in strs:

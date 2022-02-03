@@ -1,4 +1,5 @@
 class Solution:
+
     def longestCommonPrefix(self, strs: List[str]) -> str:
         result, strs = "", sorted(strs)
         index = 0

@@ -1,4 +1,5 @@
 class Solution:
+
     def clumsy(self, n: int) -> int:
         exp, j = "", 0
         for i in range(n, 1, -1):
