@@ -8,7 +8,7 @@ for f in *; do
 		cp "$latest/Solution.cpp" ../../"$f.cpp"
 		cd ../..
 	fi
-	if [ "$f" == ".gitignore" ] || [ "$f" == "cleaner.sh" ] || [ "$f" == "README.md" ]; then
+	if [ "$f" == ".gitignore" ] || [ "$f" == "cleaner.sh" ] || [ "$f" == "README.md" ] || [ "$f" == "LICENSE.md" ]; then
 		continue
 	fi
 	rm -rf "$f"
