@@ -6,6 +6,7 @@ for f in *; do
 		latest=$(ls -t | head -1)
 		cp "$latest/Solution.py" ../../"$f.py"
 		cp "$latest/Solution.cpp" ../../"$f.cpp"
+		cp "$latest/Solution.rs" ../../"$f.rs"
 		cd ../..
 	fi
 	if [ "$f" == ".gitignore" ] || [ "$f" == "cleaner.sh" ] || [ "$f" == "README.md" ] || [ "$f" == "LICENSE.md" ]; then
