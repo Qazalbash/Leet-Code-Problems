@@ -9,7 +9,7 @@ for f in *; do
 		cp "$latest/Solution.rs" ../../"$f.rs"
 		cd ../..
 	fi
-	if [ "$f" == ".gitignore" ] || [ "$f" == "cleaner.sh" ] || [ "$f" == "README.md" ] || [ "$f" == "LICENSE.md" ]; then
+	if [ "$f" == ".git" ] || [ "$f" == ".gitignore" ] || [ "$f" == "cleaner.sh" ] || [ "$f" == "README.md" ] || [ "$f" == "LICENSE.md" ]; then
 		continue
 	fi
 	rm -rf "$f"
